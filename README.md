@@ -5,7 +5,7 @@ but uses [Puget](https://github.com/greglook/puget) to colorize the output.
 
 ## Usage
 
-Add `[lein-cprint "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
+Add `[lein-cprint "1.0.0"]` into the `:plugins` vector of your
 `:user` profile.
 
     $ lein cprint
