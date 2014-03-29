@@ -1,6 +1,13 @@
-(ns leiningen.cprint)
+(ns leiningen.cprint
+  (:require
+    [puget.printer :as puget]))
+
 
 (defn cprint
-  "I don't do a lot."
+  "Pretty-print the project map with colorization."
   [project & args]
-  (println "Hi!"))
+  (if (seq args)
+    (doseq [k args]
+      (puget/cprint (project (read-string k))))
+    (puget/cprint project))
+  (flush))
