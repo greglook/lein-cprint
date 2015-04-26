@@ -3,7 +3,7 @@
     [puget.printer :as puget]))
 
 
-(defn cprint
+(defn ^:no-project-needed cprint
   "Pretty-print the project map with colorization."
   [project & args]
   (if (seq args)
