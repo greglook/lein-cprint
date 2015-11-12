@@ -1,19 +1,28 @@
-# lein-cprint
+lein-cprint
+===========
 
-Pretty-prints a representation of the project map much like `lein-pprint`,
-but uses [Puget](https://github.com/greglook/puget) to colorize the output.
+This Leiningen plugin pretty-prints a representation of the project map much
+like `lein-pprint`, but uses [Puget](https://github.com/greglook/puget) to
+colorize the output.
 
 ## Usage
 
-Add `[lein-cprint "1.0.0"]` into the `:plugins` vector of your
-`:user` profile.
+Releases are published on Clojars. To use the latest version with Leiningen, add
+the following plugin to your user profile:
 
-    $ lein cprint
+[![Clojars Project](http://clojars.org/lein-cprint/lein-cprint/latest-version.svg)](http://clojars.org/lein-cprint/lein-cprint)
 
-You can also pass arguments to the command to select specific keys from the
-project definition:
+Now you can call the plugin to show the whole project map:
 
-    $ lein cprint :repositories :deploy-repositories
+```shell
+$ lein cprint
+```
+
+You can also pass arguments to select specific keys from the project map:
+
+```shell
+$ lein cprint :repositories :deploy-repositories
+```
 
 ## License
 
