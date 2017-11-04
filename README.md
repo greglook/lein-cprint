@@ -24,6 +24,12 @@ You can also pass arguments to select specific keys from the project map:
 $ lein cprint :repositories :deploy-repositories
 ```
 
+Vector arguments can be used to get nested elements from the project:
+
+```shell
+$ lein cprint '[:profiles :dev :dependencies]'
+```
+
 ## License
 
 This is free and unencumbered software released into the public domain.
