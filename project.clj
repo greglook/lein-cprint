@@ -1,4 +1,4 @@
-(defproject lein-cprint "1.2.1-SNAPSHOT"
+(defproject lein-cprint "1.3.0"
   :description "Like lein-pprint, but colorized!"
   :url "https://github.com/greglook/lein-cprint"
   :license {:name "Public Domain"
