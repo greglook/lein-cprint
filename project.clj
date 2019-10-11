@@ -8,4 +8,4 @@
   :eval-in-leiningen true
 
   :dependencies
-  [[mvxcvi/puget "1.1.1"]])
+  [[mvxcvi/puget "1.2.0"]])
