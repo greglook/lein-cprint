@@ -1,4 +1,4 @@
-(defproject lein-cprint "1.3.2"
+(defproject lein-cprint "1.3.3"
   :description "Like lein-pprint, but colorized!"
   :url "https://github.com/greglook/lein-cprint"
   :license {:name "Public Domain"
@@ -8,4 +8,4 @@
   :eval-in-leiningen true
 
   :dependencies
-  [[mvxcvi/puget "1.2.0"]])
+  [[mvxcvi/puget "1.2.1"]])
